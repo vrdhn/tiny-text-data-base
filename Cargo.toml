@@ -1,0 +1,19 @@
+[package]
+name = 'tiny-text-data-base'
+version = '0.1.0'
+authors = [ "Vardhan <vrdhn0@gmail.com>" ]
+edition = "2018"
+
+
+[dependencies]
+uuid = { version =  "*", features = [  "v4", "serde"] }
+serde = "*"
+serde_json = "*"
+serde_yaml = "*"
+serde_derive = "*"
+log = "*"
+
+
+## For examples/todo.rs
+[dev_dependencies]
+structopt = "*"
